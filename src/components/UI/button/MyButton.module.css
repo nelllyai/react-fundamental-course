@@ -1,0 +1,21 @@
+.myBtn {
+  padding: 5px 15px;
+  background: transparent;
+  border: 1px solid coral;
+  border-radius: 3px;
+  font-size: 14px;
+  color: coral;
+  cursor: pointer;
+  transition: border-color .2s, color .2s;
+}
+
+.myBtn:disabled {
+  border-color: gray;
+  color: gray;
+  pointer-events: none;
+}
+
+.myBtn:hover {
+  border-color: crimson;
+  color: crimson;
+}

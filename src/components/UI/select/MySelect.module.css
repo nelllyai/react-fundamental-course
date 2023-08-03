@@ -1,0 +1,14 @@
+.mySelect {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid coral;
+  border-radius: 3px;
+  font-size: 14px;
+  transition: border-color .2s;
+}
+
+.mySelect:focus {
+  outline: none;
+  border-color: crimson;
+}

@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.currentPage {
+  border-color: crimson;
+  color: crimson;
+}
